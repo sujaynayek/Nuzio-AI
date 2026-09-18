@@ -1,0 +1,21 @@
+# Dependency folders (catches node_modules everywhere)
+node_modules/
+**/node_modules/
+
+# Environment files (catches .env, .env.local, etc. everywhere)
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Build outputs
+dist/
+build/
+**/dist/
+**/build/
+
+# Operating system / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
