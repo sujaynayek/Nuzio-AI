@@ -34,7 +34,7 @@ const MainApp = () => {
   }
 
   const needsOnboarding =
-    isAuthenticated && user?.preferences?.onboardingComplete === false;
+    isAuthenticated && user?.preferences?.onboardingComplete !== true;
 
   if (!isAuthenticated) {
     if (authView === "login") {

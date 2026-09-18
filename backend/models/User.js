@@ -50,6 +50,10 @@ const userSchema = new mongoose.Schema(
         type: Number,
         default: 1.0,
       },
+      onboardingComplete: {
+        type: Boolean,
+        default: false,
+      },
     },
     history: [
       {
